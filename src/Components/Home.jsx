@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import man from '../assets/man.png';
+import programmer from '../assets/programmer.png';
 
 const Home = () => {
   return (
@@ -69,19 +71,34 @@ const Home = () => {
               </div>
               <div className="flex w-80 justify-evenly relative left-6">
                 <div className="flex border-2 w-32  justify-center rounded cursor-pointer hover:bg-orange-700 transition-all duration-300">
-                  <h1>About Me</h1>
-                  <img src="src/assets/man.png" className="mx-2" />
+                  <Link
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    className="link"
+                  >
+                    About Me
+                  </Link>{" "}
+                  <img src={man} className="mx-2" />
                 </div>
                 <div className="flex border-2 w-32  justify-center rounded cursor-pointer hover:bg-orange-700 transition-all duration-300">
-                  <h1>Projects</h1>
-                  <img src="src/assets/project.png" className="mx-2" />
+                  <Link
+                    to="projects"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    className="link"
+                  >
+                    Projects
+                  </Link>{" "}
                 </div>
               </div>
             </div>
             <div className="photo mx-24 my-12 relative h-[400px] top-28 right-12">
               <div>
                 <img
-                  src="src/assets/programmer.png"
+                  src={programmer}
                   alt="My_Image"
                   className="w-80"
                 />

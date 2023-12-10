@@ -1,39 +1,50 @@
+import HTML from "../assets/html.png"
+import CSS from "../assets/css-3.png"
+import JS from "../assets/js-format.png"
+import React_JS from "../assets/atom.png"
+import Node_JS from "../assets/node-js.png"
+import MongoDB from "../assets/database-storage.png"
+import Git from "../assets/git.png"
+import GitHub from "../assets/github.png"
+import Tailwind from "../assets/wind.png"
+
+
 const About = () => {
   let skills = [
     {
-      image: "src/assets/html.png",
+      image: HTML,
       value: "HTML",
     },
     {
-      image: "src/assets/css-3.png",
-      value: "CSS",
+      image: CSS,
+      value: CSS,
     },
     {
-      image: "src/assets/js-format.png",
+      image: JS,
       value: "JavaScript",
     },
     {
-      image: "src/assets/atom.png",
+      image: React_JS,
       value: "React JS",
     },
     {
-      image: "src/assets/node-js.png",
+      image: Node_JS,
       value: "Node JS",
     },
     {
-      image: "src/assets/database-storage.png",
+      image: MongoDB,
       value: "Mongo DB",
     },
     {
-      image: "src/assets/git.png",
+      image: Git,
       value: "Git VCS",
     },
     {
-      image: "src/assets/github.png",
+      image: GitHub,
       value: "GitHub",
     },
     {
-      image: "src/assets/wind.png",
+      image: Tailwind,
       value: "Tailwind CSS",
     },
   ];

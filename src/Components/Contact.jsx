@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
+
 const Contact = () => {
   const alarm=()=>{
     alert("Thank you for Visiting, Website is under Maintenance!")
