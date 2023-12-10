@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
-import man from '../assets/man.png';
-import programmer from '../assets/programmer.png';
+import man from "../assets/man.png";
+import programmer from "../assets/programmer.png";
 
 const Home = () => {
   return (
@@ -97,11 +97,7 @@ const Home = () => {
             </div>
             <div className="photo mx-24 my-12 relative h-[400px] top-28 right-12">
               <div>
-                <img
-                  src={programmer}
-                  alt="My_Image"
-                  className="w-80"
-                />
+                <img src={programmer} alt="My_Image" className="w-80" />
               </div>
             </div>
           </div>

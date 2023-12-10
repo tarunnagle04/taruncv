@@ -29,7 +29,10 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://tinyurl.com/tarunnagle04">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/tarun-nagle-96476a1b8/"
+                >
                   <img src={linkedin} className="w-8" />
                 </a>
               </li>

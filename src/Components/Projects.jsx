@@ -1,11 +1,16 @@
-import shopping from "../assets/shopping.png"
-import salesforce from "../assets/salesforce.png"
-import trolley from "../assets/trolley.png"
-import vlog from "../assets/vlog.png"
-import alarm from "../assets/alarm.png"
-import todolist from "../assets/to-do-list.png"
+import shopping from "../assets/shopping.png";
+import salesforce from "../assets/salesforce.png";
+import trolley from "../assets/trolley.png";
+import vlog from "../assets/vlog.png";
+import alarm from "../assets/alarm.png";
+import todolist from "../assets/to-do-list.png";
 
 const Projects = () => {
+  const attention = () => {
+    alert(
+      "This website is under development, some features of this website might not work"
+    );
+  };
   let Projects = [
     {
       image: shopping,
@@ -77,7 +82,7 @@ const Projects = () => {
                 <h1 className="flex justify-center">{value.value}</h1>
                 <h1 className="flex justify-center">{value.desc}</h1>
                 <div className="flex border-2 w-32 bg-slate-200 text-slate-950 justify-center rounded cursor-pointer hover:bg-orange-700 transition-all duration-300">
-                  <a href={`https:google.com`} >Visit</a>
+                  <a href={`https:google.com`} onClick={attention}>Visit</a>
                 </div>
               </div>
             );
