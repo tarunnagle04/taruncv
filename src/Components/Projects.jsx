@@ -75,6 +75,7 @@ const Projects = () => {
           {Projects.map((value, index) => {
             return (
               <div
+                onClick={attention}
                 key={index}
                 className="border-2 my-8 w-80 h-96 rounded-xl space-x-3 space-y-2"
               >
@@ -82,7 +83,7 @@ const Projects = () => {
                 <h1 className="flex justify-center">{value.value}</h1>
                 <h1 className="flex justify-center">{value.desc}</h1>
                 <div className="flex border-2 w-32 bg-slate-200 text-slate-950 justify-center rounded cursor-pointer hover:bg-orange-700 transition-all duration-300">
-                  <a href={`https:google.com`} onClick={attention}>Visit</a>
+                  <a href={`https:google.com`}>Visit</a>
                 </div>
               </div>
             );
