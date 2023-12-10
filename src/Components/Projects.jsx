@@ -1,42 +1,49 @@
+import shopping from "../assets/shopping.png"
+import salesforce from "../assets/salesforce.png"
+import trolley from "../assets/trolley.png"
+import vlog from "../assets/vlog.png"
+import alarm from "../assets/alarm.png"
+import todolist from "../assets/to-do-list.png"
+
 const Projects = () => {
   let Projects = [
     {
-      image: "src/assets/shopping.png",
+      image: shopping,
       value: "Mastercard Connect Clone",
       desc: "I have developed a clone of Mastercard Connect website which Mastercard uses to connect with their customers for providing services",
       links: "",
       gitlinks: "",
     },
     {
-      image: "src/assets/salesforce.png",
+      image: salesforce,
       value: "Salesforce Clone",
       desc: "I have cloned the Salesforce working environment on which various companies are working together to run their day to day business queries",
       links: "",
       gitlinks: "",
     },
     {
-      image: "src/assets/trolley.png",
+      image: trolley,
       value: "E-Commerce Website",
       desc: "I have developed a simple E-Commerce application using MERN Stack",
       links: "",
       gitlinks: "",
     },
     {
-      image: "src/assets/vlog.png",
+      image: vlog,
       value: "Vlog",
       desc: "I have created a vlog website which shows my interest and fun activities of my life",
       links: "",
       gitlinks: "",
     },
     {
-      image: "src/assets/alarm.png",
+      image: alarm,
       value: "Alarm_Clock",
       desc: "I have created this projected using HTML,CSS,JS which shows the time and you can make your daily schedule in this application.",
       links: "",
       gitlinks: "",
     },
     {
-      image: "src/assets/to-do-list.png",
+      image: todolist,
       value: "TODO APPLICATION",
       desc: "I have created this website in my period of MERN stack training to build my concepts.",
       links: "",
