@@ -57,11 +57,11 @@ const Projects = () => {
   ];
   return (
     <>
-      <div id="projects" className="h-[1100px] bg-purple-950 text-white">
-        <div className="about font-serif w-[1100px] relative left-32 top-8">
+      <div id="projects" className="bg-purple-950 text-white p-10 text-justify text-2xl md:p-20">
+        <div className="about font-serif">
           <h1 className="text-4xl font-medium">Featured Projects:</h1>
           <br />
-          <p className="">
+          <p className="m">
             I have worked on few projects during my training and currently I am
             working to improve my skills in MERN stack development
           </p>
@@ -71,13 +71,13 @@ const Projects = () => {
             visit my live website by clicking View Live button.
           </p>
         </div>
-        <div className="font-serif flex justify-between flex-wrap w-[1050px] relative top-16 left-32">
+        <div className="font-serif md:flex md: flex-wrap md:gap-20 md:w-[1150px] md:mx-12">
           {Projects.map((value, index) => {
             return (
               <div
                 onClick={attention}
                 key={index}
-                className="border-2 my-8 w-80 h-96 rounded-xl space-x-3 space-y-2"
+                className="border-2 my-10 py-5 px-2 w-80 rounded-xl space-x-3 space-y-2"
               >
                 <img src={value.image} className="w-40 mx-20 mt-4" />
                 <h1 className="flex justify-center">{value.value}</h1>

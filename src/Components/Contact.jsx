@@ -10,14 +10,14 @@ const Contact = () => {
   };
   return (
     <>
-      <div id="contact" className="bg-teal-950 text-white">
-        <div className="h-[600px] font-serif  w-[1050px] relative left-32 top-8 flex justify-around space-x-72">
-          <div className="social w-[400]">
+      <div id="contact" className="bg-teal-950 text-white md:h-[600px]">
+        <div className="p-10 md:flex md:justify-between md:mx-24">
+          <div className="social">
             <h1 className="text-4xl font-medium">Find Me On:</h1>
             <br />
             <h1 className="">Now, You Know Me. Connect With Me</h1>
             <br />
-            <ul className="flex w-56 justify-around my-1">
+            <ul className="flex justify-evenly m-2">
               <li>
                 <a href="src/assets/Tarun_Resume.pdf" download={"Tarun_CV"}>
                   <img src={cv} className="w-8" />
@@ -47,26 +47,26 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          <div className="form w-[400px] justify-between">
+          <div className="form justify-between">
             <h1 className="text-4xl font-medium">Connect With Me:</h1>
             <br />
             <div className="space-y-4">
               <input
                 type="text"
                 placeholder="Name:"
-                className="text-purple-900 h-12 w-96 px-4 rounded-md"
+                className="text-purple-900 h-12 w-80 px-4 rounded-md md:w-96"
               />
               <br />
               <input
                 type="text"
                 placeholder="Email:"
-                className="text-purple-900 h-12 w-96 px-4 rounded-md"
+                className="text-purple-900 h-12 w-80 px-4 rounded-md md:w-96"
               />
               <br />
               <input
                 type="text"
                 placeholder="Message: You are Hired!"
-                className="text-purple-900 h-28 px-4 w-96 rounded-md"
+                className="text-purple-900 h-28 px-4 w-80 rounded-md md:w-96"
               />
               <br />
               <button

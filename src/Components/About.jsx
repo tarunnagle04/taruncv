@@ -1,13 +1,12 @@
-import HTML from "../assets/html.png"
-import CSS from "../assets/css-3.png"
-import JS from "../assets/js-format.png"
-import React_JS from "../assets/atom.png"
-import Node_JS from "../assets/node-js.png"
-import MongoDB from "../assets/database-storage.png"
-import Git from "../assets/git.png"
-import GitHub from "../assets/github.png"
-import Tailwind from "../assets/wind.png"
-
+import HTML from "../assets/html.png";
+import CSS from "../assets/css-3.png";
+import JS from "../assets/js-format.png";
+import React_JS from "../assets/atom.png";
+import Node_JS from "../assets/node-js.png";
+import MongoDB from "../assets/database-storage.png";
+import Git from "../assets/git.png";
+import Github from "../assets/github.png";
+import Tailwind from "../assets/wind.png";
 
 const About = () => {
   let skills = [
@@ -40,7 +39,7 @@ const About = () => {
       value: "Git VCS",
     },
     {
-      image: GitHub,
+      image: Github,
       value: "GitHub",
     },
     {
@@ -50,25 +49,25 @@ const About = () => {
   ];
   return (
     <>
-      <div id="about" className="h-[1300px] bg-zinc-950 text-white">
-        <div className="about font-serif w-[1100px] relative left-32 top-8">
-          <h1 className="text-4xl font-medium">About Me:</h1>
+      <div id="about" className="bg-zinc-950 text-white py-5 md:px-16 ">
+        <div className="about font-serif p-5 md:p-1 mx-4 py-16">
+          <h1 className="text-5xl font-medium">About Me:</h1>
           <br />
-          <p className="">
+          <p className="text-justify text-xl w-80 md:w-full">
             Hello, my name is Tarun Nagle. I have completed my MERN stack web
             development training. I am looking for a entry level position for
             MERN Stack Developer or Front End Developer or Back-End Developer
           </p>
           <br />
-          <p>
+          <p className="w-80 text-xl md:w-full">
             During my training, I have learned these skills mentioned below:
           </p>
         </div>
-        <div className="font-serif flex justify-between flex-wrap w-[1050px] relative top-16 left-32">
+        <div className="mx-14 md:flex md:flex-wrap md:gap-20 md:justify-center md:mx-4 md:w-[1200px]">
           {skills.map((value, index) => {
             return (
-              <div key={index} className="border-2 my-8 w-72 h-72 rounded-xl">
-                <img src={value.image} alt="image" className="w-60 mx-5 mt-2"/>
+              <div key={index} className="border-2 my-8 w-72 rounded-xl">
+                <img src={value.image} alt="image" className="w-60 mx-5 mt-2" />
                 <h1 className="flex justify-center mt-2">{value.value}</h1>
               </div>
             );
