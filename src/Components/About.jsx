@@ -16,7 +16,7 @@ const About = () => {
     },
     {
       image: CSS,
-      value: CSS,
+      value: "CSS",
     },
     {
       image: JS,
